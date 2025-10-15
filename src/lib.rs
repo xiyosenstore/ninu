@@ -31,6 +31,7 @@ async fn main(req: Request, env: Env, _: Context) -> Result<Response> {
         .on_async("/sub", sub)
         .on("/link", link)
         .on_async("/:proxyip", tunnel)
+        .on_async("/Benxx-Project/:proxyip", tunnel)
         .run(req, env)
         .await
 }
