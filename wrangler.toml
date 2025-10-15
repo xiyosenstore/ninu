@@ -3,12 +3,12 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
-account_id = "ea1aab81dc8e22018131832d124a54fc"
+account_id = "a434665e08ee73300928200f5432f4a4"
 workers_dev = true
 
 [[kv_namespaces]]
 binding = "YUMI"
-id = "fde4b995806b4140878831efa48d43d8"
+id = "647287d362c74a3a880543cb36e03b7e"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
