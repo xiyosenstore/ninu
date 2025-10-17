@@ -3,6 +3,26 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
+routes = [
+ 
+  { pattern = "fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "collection.linefriends.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "df.game.naver.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "ava.game.naver.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "demo.appsflyer.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "graph.instagram.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "blog.webex.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "bimbel.ruangguru.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "support.zoom.us.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "cache.netflix.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "investor.fb.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "nontontv.vidio.com.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "blog.clova.line.me.fre.roti.dpdns.org", custom_domain = true },
+
+]
+
 account_id = "ce7c050c467def05f24a0956aec98ede"
 workers_dev = true
 
