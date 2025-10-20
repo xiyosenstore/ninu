@@ -5,30 +5,20 @@ minify = true
 
 routes = [
  
-  { pattern = "fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "collection.linefriends.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "df.game.naver.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "ava.game.naver.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "demo.appsflyer.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "graph.instagram.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "blog.webex.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "bimbel.ruangguru.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "support.zoom.us.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "cache.netflix.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "investor.fb.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "nontontv.vidio.com.fre.roti.dpdns.org", custom_domain = true },
-  { pattern = "blog.clova.line.me.fre.roti.dpdns.org", custom_domain = true },
+  { pattern = "changli.benx-sonzay.workers.dev", custom_domain = true },
+  { pattern = "collection.linefriends.com.changli.benx-sonzay.workers.dev", custom_domain = true },
+  { pattern = "df.game.naver.com.changli.benx-sonzay.workers.dev", custom_domain = true },
+  { pattern = "ava.game.naver.com.changli.benx-sonzay.workers.dev", custom_domain = true },
+ 
 
 ]
 
-account_id = "ce7c050c467def05f24a0956aec98ede"
+account_id = "384f2694c242474605255c18f4dc8bcf"
 workers_dev = true
 
 [[kv_namespaces]]
 binding = "YUMI"
-id = "a513e31667f04c5bbd3bcfc031982690"
+id = "ff8eec871a6e4c10924e43255ec9c65b"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
